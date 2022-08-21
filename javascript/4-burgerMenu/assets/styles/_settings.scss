@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+$font1: montserrat, sans-serif;
+$color1: white;
+$color2: rgb(31, 25, 25);
+$color3: rgba(97, 14, 14, 0.473);
+$color4: rgba(34, 2, 31, 0.658);
+$color5: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $font1;
+  font-size: 1.4rem;
+  color: $color1;
+}

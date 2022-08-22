@@ -1,0 +1,49 @@
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $color4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+    .modal-details {
+      background: $color5;
+      width: 50%;
+      text-align: center;
+      position: relative;
+      padding: 3rem;
+      color: $color1;
+    }
+      .modal-details i {
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        font-size: 2rem;
+        padding: 1rem;
+        color: $color6;
+      }
+      .modals-titre {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+      }
+      .code {
+        background: $color7;
+        color: $color5;
+        font-family: monospace;
+        padding: 1rem;
+        display: none;
+      }
+      .btn-success {
+        height: 4rem;
+        background: $color8;
+        color: $color5;
+        padding: 1rem;
+        bottom: none;
+        width: 100%;
+      }
+}

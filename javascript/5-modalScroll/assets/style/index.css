@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   background: #1E2337;
+  text-transform: uppercase;
 }
 
 .part2 {
@@ -16,4 +17,52 @@
 
 .part3 {
   background: orangered;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(136, 222, 136, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-container .modal-details {
+  background: white;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  padding: 3rem;
+  color: #1E2337;
+}
+.modal-container .modal-details i {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: grey;
+}
+.modal-container .modals-titre {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.modal-container .code {
+  background: black;
+  color: white;
+  font-family: monospace;
+  padding: 1rem;
+}
+.modal-container .btn-success {
+  height: 4rem;
+  background: rgb(231, 171, 61);
+  color: white;
+  padding: 1rem;
+  bottom: none;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

@@ -57,6 +57,7 @@
   color: white;
   font-family: monospace;
   padding: 1rem;
+  display: none;
 }
 .modal-container .btn-success {
   height: 4rem;

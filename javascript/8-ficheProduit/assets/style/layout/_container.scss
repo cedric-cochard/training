@@ -1,0 +1,19 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1E2337;
+
+  @media screen and (max-width: 800px){
+    .container{
+        height: auto;/*annule la height:100vh*/
+    }
+  }
+}
+
+.banniere-titre{
+  margin-bottom: 1rem;
+}
+

@@ -1,0 +1,30 @@
+#formulaire {
+  width: 50%;
+  background-color: white;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 45px;
+  margin: auto;
+
+    .form-item {
+      margin-bottom: 3rem;
+    }
+    .form-item label {
+      display: flex;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    .form-item input, textarea {
+      padding: 1rem;
+      width: 100%;
+      color: grey;
+      font-size: 2rem;
+    }
+    textarea {
+      height: 200px;
+      font-family: inherit;
+      resize: none;
+    }
+}

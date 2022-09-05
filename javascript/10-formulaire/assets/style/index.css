@@ -1,0 +1,53 @@
+.container h1 {
+  color: #1E2337;
+}
+
+#btn {
+  background-color: orange;
+  color: #1E2337;
+  border: none;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#formulaire {
+  width: 50%;
+  background-color: white;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 45px;
+  margin: auto;
+}
+#formulaire .form-item {
+  margin-bottom: 3rem;
+}
+#formulaire .form-item label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+#formulaire .form-item input, #formulaire textarea {
+  padding: 1rem;
+  width: 100%;
+  color: grey;
+  font-size: 2rem;
+}
+#formulaire textarea {
+  height: 200px;
+  font-family: inherit;
+  resize: none;
+}
+
+.error {
+  margin-top: 5px;
+  color: red;
+}
+
+.invisible {
+  display: none;
+}/*# sourceMappingURL=index.css.map */

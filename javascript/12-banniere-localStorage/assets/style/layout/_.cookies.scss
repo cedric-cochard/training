@@ -1,0 +1,17 @@
+.cookies {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.cookies-btn {
+  display: flex;
+}

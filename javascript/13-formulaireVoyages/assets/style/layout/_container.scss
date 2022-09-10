@@ -1,0 +1,15 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #1E2337; */
+  background: url(../../../assets/img/bg.jpg) center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banniere-titre{
+  margin-bottom: 1rem;
+}

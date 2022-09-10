@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <title>Agence de voyages</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="banniere-titre">
+            <h1>
+                Trouvez votre prochaine destination !
+            </h1>
+        </div>
+        <form id="form">
+            <div class="field">
+                <select id="pays" >
+                    <option value="hawai">Hawaï</option>
+                    <option value="maldives">Les Maldives</option>
+                    <option value="bahamas">Bahamas</option>
+                    <option value="borabora">Bora-Bora</option>
+                    <option value="tahiti">Tahiti</option>
+                    <option value="Ile de la Reunion">Ile de la Reunion</option>
+                </select>
+            </div>
+            
+            <!-- Date de départ -->
+            <div class="field">
+                <input type="date" id="start" 
+                value="2022-09-09"
+                min="2022-03-28"
+                max="2030-12-31">
+            </div>
+            <!-- Date de retour -->
+            <div class="field">
+                <input type="date" id="end" 
+                value="2022-09-09"
+                min="2022-03-28"
+                max="2030-12-31">
+            </div>
+            <!-- Bouton -->
+            <button type="submit"><i class="fas fa-plane"></i></button>
+
+        </form>
+
+        <!-- Ici les résultats de la sélection -->
+        <div class="liste-resultats">
+        </div>
+
+
+    </div>
+   
+
+    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./13-SiteDeVoyages- LocalStorage/script.js"></script> -->
+</body>
+</html>
+
+
+
